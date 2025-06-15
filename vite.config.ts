@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: 'https://github.com/DibyadyutiDas/FocusBeats', // <-- important!
+  base: '/FocusBeats/', // ✅ ONLY the repo name with slashes
 });
